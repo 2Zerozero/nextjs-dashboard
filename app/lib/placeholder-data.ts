@@ -1,4 +1,5 @@
-// This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
+// 이 파일에는 임시 데이터가 들어 있습니다.
+// Data Fetching 챕터에서 실제 데이터로 교체하게 됩니다.
 // https://nextjs.org/learn/dashboard-app/fetching-data
 const users = [
   {
