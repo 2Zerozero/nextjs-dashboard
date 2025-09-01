@@ -19,10 +19,10 @@
 
   - 여러 페이지에서 공통으로 유지되는 UI 구조를 정의
   - 페이지 전환 시, 유지되는 영역을 만들 때 주로 사용
-  - app/layout.tsx 즉, RootLayout 에 추가하는 모든 UI는 애플리케이션의 모든 <HTML> 페이지에서 공유된다.
+  - app/layout.tsx 즉, RootLayout 에 추가하는 모든 UI는 애플리케이션의 모든 페이지에서 공유
 
 - Page
 
   - 특정 URL 경로에 대응하는 실제 화면 콘텐츠
   - app/page.tsx 또는 app/[route]/page.tsx 와 같이 정의
-  - 각 page.tsx 가 라우팅의 핵심
+  - 각 page.tsx 파일이 해당 경로의 페이지를 렌더링
